@@ -2,7 +2,7 @@
 
 
 body{
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 400;
     margin: 0%;
     padding: 0%;
@@ -15,25 +15,33 @@ body{
 
 .profile{
     background-color: #d6eff5;
-    width: 20%;
-    height: 500px;
+    width: 27%;
+    height: 450px;
     position: absolute;
     top: 10%;
-    left: 30%;
+    left: 15%;
     
 
 }
 
 .Celestine{
-    height: 250px;
-    width: 250px;
+    height: 300px;
+    width: 350px;
     object-fit: cover;
+    padding-bottom:0%
+}
+
+.details{
+    background-color: #efefef;
+    position: relative;
+    top: -35px;
 }
 
 .name{
     font-weight: 600;
     font-size: 28px;
     text-align: center;
+    
 }
 
 .job{
@@ -41,35 +49,46 @@ body{
     font-weight: 600;
     font-size: 18px;
     text-align: center;
+    position: relative;
+    top: -25px;
 }
 
 .social-media{
-    height: 80px;
-    padding-top: 5%;
+    height: 60px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -55px;
+}
+
+.inner-social{
+    width: 25%;
     display: flex;
     justify-content: space-around;
-    background-color: white;
 }
 
 img{
-    height: 50px;
-    width: 50px;
+    height: 30px;
+    width: 30px;
+    padding:10px;
 }
 
 .wheat{
     background-color:rgb(241, 230, 215);
     height:700px;
-    width: 40%;
+    width: 25%;
 }
 
-.objective{
+.about{
     position: absolute;
     top: 10%;
-    left: 55%;
+    left: 50%;
     width: 30%;
 }
 
 .h1{
     font-weight: 600;
-    font-size: 24px;
+    font-size: 18px;
+    padding-top: 25px;
 }

@@ -7,8 +7,8 @@ body{
     margin: 0%;
     padding: 0%;
     max-width: 100%;
-    background-color: #ebeef4;
-    color: rgb(95, 95, 145);
+    background-color: white;
+    color: rgb(39, 39, 56);
     letter-spacing: 2.5px;
     line-height: 1.5;
 }
@@ -16,9 +16,9 @@ body{
 .profile{
     background-color: #d6eff5;
     width: 27%;
-    height: 450px;
+    height: 430px;
     position: absolute;
-    top: 10%;
+    top: 15%;
     left: 15%;
     
 
@@ -59,7 +59,7 @@ body{
     display: flex;
     justify-content: center;
     position: relative;
-    top: -55px;
+    top: -70px;
 }
 
 .inner-social{
@@ -74,15 +74,15 @@ img{
     padding:10px;
 }
 
-.wheat{
-    background-color:rgb(241, 230, 215);
-    height:700px;
-    width: 25%;
+.wheat img{
+    height:650px;
+    width: 30%;
+    padding: 0%;
 }
 
 .about{
     position: absolute;
-    top: 10%;
+    top: 7%;
     left: 50%;
     width: 30%;
 }
@@ -91,4 +91,9 @@ img{
     font-weight: 600;
     font-size: 18px;
     padding-top: 25px;
+    padding-bottom: 0%;
+}
+
+.profile1 .h1{
+    padding-top: 0%;
 }

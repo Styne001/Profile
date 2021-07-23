@@ -241,7 +241,7 @@ img{
     }
 
     .inner-social{
-        width: 55%;
+        width: 40%;
         display: flex;
         justify-content: space-around;
     }

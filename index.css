@@ -1,9 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif&family=Zilla+Slab:wght@300;500&display=swap");
 
 /* resetting all formatting */
 body{
+    font-family: 'Zilla Slab', serif;
     font-size: 15px;
-    font-weight: 400;
+    font-weight: 500;
     margin: 0%;
     padding: 0%;
     max-width: 100%;
@@ -28,20 +29,7 @@ body{
 
 .info{
     grid-column: 2 / span 10;
-    animation-name: celestine_profile;
-    animation-duration: 4s;
-}
-
-@keyframes celestine_profile {
-    0% {
-        box-shadow: 0px 0px 0px gray;
-    }
-    50% {
-        box-shadow: 0px 10px 10px gray;
-    }
-    0% {
-        box-shadow: 0px 0px 0px gray;
-    }
+   
 }
 
 .Celestine{
@@ -64,6 +52,20 @@ body{
     font-weight: 600;
     font-size: 22px;
     text-align: center;
+    animation-name: name_profile;
+    animation-duration: 4s;
+}
+
+@keyframes name_profile {
+    0% {
+        font-size: 22px;
+    }
+    50% {
+        font-size: 24px;
+    }
+    0% {
+        font-size: 22px;
+    }
 }
 
 .job{
@@ -73,6 +75,20 @@ body{
     text-align: center;
     position: relative;
     top: -25px;
+    animation-name: job_profile;
+    animation-duration: 4s;
+}
+
+@keyframes job_profile {
+    0% {
+        font-size: 16px;
+    }
+    50% {
+        font-size: 12px;
+    }
+    0% {
+        font-size: 14px;
+    }
 }
 
 .social-media{

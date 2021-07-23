@@ -16,7 +16,6 @@ body{
 }
 
 .profile{
-    background-image: url("/3a.png");
     background-repeat: no-repeat;
     background-size: 100%;
     display: grid;

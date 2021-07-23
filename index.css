@@ -200,7 +200,7 @@ img{
 
     body{
         grid-template-columns:repeat(5, 1fr);
-        background-image: url(/code/3a.png);
+        background-image: url(/3a.png);
         background-repeat: no-repeat;
         font-size: 14px;
     }
